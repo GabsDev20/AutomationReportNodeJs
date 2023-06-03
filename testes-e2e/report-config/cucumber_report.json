@@ -1,0 +1,85 @@
+[
+  {
+    "description": "  Como usuário\n  desejo fazer uma pesquisa no Google\n  para ter conhecimento sobre determinado assunto",
+    "keyword": "Funcionalidade",
+    "name": "Realizar pesquisa no Google",
+    "line": 3,
+    "id": "realizar-pesquisa-no-google",
+    "tags": [
+      {
+        "name": "@pesquisaGoogle",
+        "line": 2
+      }
+    ],
+    "uri": "features\\pesquisa-google.feature",
+    "elements": [
+      {
+        "id": "realizar-pesquisa-no-google;visualizar-detalhes-de-uma-pesquisa",
+        "keyword": "Scenario",
+        "line": 7,
+        "name": "Visualizar detalhes de uma pesquisa",
+        "tags": [
+          {
+            "name": "@pesquisaGoogle",
+            "line": 2
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Dado ",
+            "line": 8,
+            "name": "que estou na página inicial do Google",
+            "match": {
+              "location": "features\\steps\\pesquisa-google.steps.js:18"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 10233000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "E ",
+            "line": 9,
+            "name": "escrevo no campo de pesquisa a palavra 'Wikipedia'",
+            "match": {
+              "location": "features\\steps\\pesquisa-google.steps.js:22"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1181000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Quando ",
+            "line": 10,
+            "name": "clico no botão de pesquisa",
+            "match": {
+              "location": "features\\steps\\pesquisa-google.steps.js:26"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3818000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Então ",
+            "line": 11,
+            "name": "devo visualizar uma página com os detalhes sobre a pesquisa",
+            "match": {
+              "location": "features\\steps\\pesquisa-google.steps.js:29"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2113000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
